@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" >
+    <rect width="100%" height="100%" fill="white"/>
+
+  <defs>
+           <pattern
+                id="diagonalHatch"
+                patternUnits="userSpaceOnUse" 
+                width="4" 
+                height="3" 
+                patternTransform="rotate(45 2 2)"
+            >
+                <path d="M -1,2 l 6,0" stroke="#FBEF4D" stroke-width="1.9"/>
+          </pattern>
+    </defs>
+  <rect x="0" y="0" width="80" height="80" stroke= "none" stroke-width="2" fill="url(#diagonalHatch)"/>
+  
+</svg>
+
