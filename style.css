@@ -5,15 +5,7 @@
     src: url(./schwaben-alt.bold.ttf);
 }
 
-@font-face {
-    font-family: Buenard-bold;
-    src: url(./buenard.bold.ttf);
-}
 
-@font-face {
-    font-family: Buenard;
-    src: url(./buenard.regular.ttf);
-}
 
 /* animation of about-box */
 @keyframes about-animation {
@@ -24,7 +16,7 @@
 
 html {
   height: 100%;
-  font-family: Buenard;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
   background-color: #F7DCB9;
   color: #60472F;
@@ -312,15 +304,50 @@ figure .legend ul #westfalen {
 footer {
     margin-bottom: 0;
     padding: 20px;
+    
     background-color: #37281B;
     color: #FDF6ED;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: right;
+    text-align: left;
 }
 footer a{
     color: #FDF6ED;
 }
-  
+footer p.right{
+    color: #FDF6ED;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+    background-color: #37281B;
+    text-align: right;
+    
+}
+footer p{
+    color: #FDF6ED;
+    padding: 0px;
+    margin: 0px;
+    background-color: #37281B;
+    
+    
+}
 
+footer div.schrift{
+    color: #FDF6ED;
+    padding: 0px;
+    margin: 0px;
+    background-color: #37281B;
+    
+    display:inline;
+    
+}
+footer div.schwaben{
+    display:inline;
+    font-family: Schwaben;
+    color: #FDF6ED;
+    padding: 0px;
+    margin: 0px;
+    background-color: #37281B;
+
+}
 
 
